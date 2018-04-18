@@ -1,3 +1,3 @@
 # Capstone
 
-![image](https://github.com/sadsearth/Capstone/blob/master/workflow.png?raw=true)
+![image](https://i.imgur.com/A46XCtJ.png)
