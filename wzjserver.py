@@ -4,6 +4,7 @@ import SocketServer
 import subprocess
 import string
 import time
+import socket
 class MyTcpServer(SocketServer.BaseRequestHandler):  
 #继承BaseRequestHandler基类，然后必须重写handle方法，并且在handle方法里实现与客户端的所有交互
     def recvfile(self, filename):
@@ -58,5 +59,6 @@ class MyTcpServer(SocketServer.BaseRequestHandler):
 if __name__ == "__main__":
     host = ''
     port = 3389
+    SocketServer.TCPServer.allow_reuse_address = True
     s = SocketServer.ThreadingTCPServer((host,port), MyTcpServer)
     s.serve_forever()
