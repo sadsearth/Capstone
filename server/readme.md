@@ -1,3 +1,8 @@
+#python server.py
+#address already in use:
+##sudo lsof -i
+##sudo kill 3389
+
 root@iZuf69voc4k5nbpfh6o2ijZ:~/zuihou# python server.py 
 
 listening
