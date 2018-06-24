@@ -167,3 +167,4 @@ if __name__ == "__main__":
        # newSocket.close()#拷贝到了新的进程中，这里的可以删掉了
     s.close()
                    
+   # https://www.cnblogs.com/lipijin/p/3709903.html
