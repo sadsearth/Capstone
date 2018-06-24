@@ -156,13 +156,11 @@ if __name__ == "__main__":
         p = Process(target=worker,args=(newSocket,destAdr))
         p.start()
       #  p1.start()
-      #  p1 = Process(target=worker1,args=(newSocket,destAdr))
+      #  p1 = Process(target=worker1,args=(newSocket,destAdr)   
+      #  p2 = Process(target=worker2,args=(newSocket,destAdr))
       #  p1.start()
-     #   p1.join()
-     #   print 'next'
-     #   time.sleep(2)
-     #   p2 = Process(target=worker2,args=(newSocket,destAdr))
      #   p2.start()
+     #   p1.join()
      #   p2.join()
        # newSocket.close()#拷贝到了新的进程中，这里的可以删掉了
     s.close()
